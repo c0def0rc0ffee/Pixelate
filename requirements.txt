@@ -1,0 +1,5 @@
+bleak==3.0.2
+Pillow==13.0.0
+PySide6==6.12.0
+pypixelcolor==0.5.0
+idotmatrix==0.0.9

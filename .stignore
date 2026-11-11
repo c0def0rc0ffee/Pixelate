@@ -1,0 +1,5 @@
+// Syncthing ignore: don't sync machine-specific or generated files
+(?d).venv*
+(?d)__pycache__
+(?d).pytest_cache
+presets-out

@@ -1,0 +1,49 @@
+# Machine-specific and generated files
+.venv*/
+__pycache__/
+.pytest_cache/
+presets-out/
+
+# Build output and scratch
+/Pixelate Dist/
+/Pixelate Git/
+/Pixelate App/
+*.zip
+*.7z
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
+@eaDir/
+
+# Secrets never live here, but belt and braces. Every pattern is listed in
+# both cases because .gitignore, rsync and zip matching are all case sensitive.
+.env*
+.ENV*
+*credential*
+*CREDENTIAL*
+*cred*
+*CRED*
+*password*
+*PASSWORD*
+*secret*
+*SECRET*
+*token*
+*TOKEN*
+*sftp*
+*SFTP*
+*ftp*
+*FTP*
+*.pem
+*.PEM
+*.key
+*.KEY
+*.pfx
+*.PFX
+id_rsa*
+ID_RSA*
+connection.txt
+CONNECTION.TXT
+*config.local*
+*CONFIG.LOCAL*
